@@ -6,6 +6,7 @@ int DIGIT_0 = 0;
 int DIGITN = 0;
 int COUNT = 0;
 int SECURITY_DELAY = 30; // (In seconds)
+int DELAY_BW_TRIES = 100; // (In miliseconds)
 int MAX_TRIES = 3;
 String DIGITNs = "0";
 
@@ -40,6 +41,6 @@ void loop() {
 		while (true) {
 			delay(100);
 		}
-    delay(100);
+    delay(DELAY_BW_TRIES);
   }
 }
