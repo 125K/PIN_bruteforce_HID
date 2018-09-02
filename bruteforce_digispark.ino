@@ -38,9 +38,10 @@ void loop() {
       delay(SECURITY_DELAY * 1000);
     }
     if (DIGITN == 9999) {
-		while (true) {
-			delay(100);
-		}
+      while (true) {
+        delay(100);
+      }
+    }
     delay(DELAY_BW_TRIES);
   }
 }
